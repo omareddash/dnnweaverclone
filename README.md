@@ -105,3 +105,7 @@ limitations under the License.
 
 ## Maintained By
 Hardik Sharma (*hsharma@gatech.edu*)
+
+
+This repo is downloaded from this pynq variation
+http://venividiwiki.ee.virginia.edu/mediawiki/index.php/DNNWeaver#Train_LeNet_and_get_Weights_and_Inputs_using_Caffe
