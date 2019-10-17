@@ -251,7 +251,7 @@ if __name__ == "__main__":
     elif str(args.fpga).lower() == "arria10":
         hardware_file = "./json/arria10.json"
     else:
-        print "Unknown FPGA"
+        print ("Unknown FPGA")
         sys.exit(-1)
 
     hardware = json.loads(open(hardware_file).read())

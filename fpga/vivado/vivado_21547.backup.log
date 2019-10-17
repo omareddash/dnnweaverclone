@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Sep 30 23:22:50 2019
+# Process ID: 21547
+# Current directory: /home/omar/Drive2/Work/dnnweaver.public/fpga/vivado
+# Command line: vivado
+# Log file: /home/omar/Drive2/Work/dnnweaver.public/fpga/vivado/vivado.log
+# Journal file: /home/omar/Drive2/Work/dnnweaver.public/fpga/vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/omar/Drive2/Work/dnnweaver.public/fpga/vivado/dnnweaver.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/omar/Drive2/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 6092.461 ; gain = 35.555 ; free physical = 383 ; free virtual = 4456
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+open_hw
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 30 23:36:05 2019...

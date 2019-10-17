@@ -53,7 +53,9 @@ puts "DnnWeaver: Frequency is : $frequency MHz"
 set hw_dir [lindex $argv 2]
 puts "DnnWeaver: Verilog Path is : $hw_dir"
 
-set file_list [split [exec cat $origin_dir/$hw_dir/file.list | egrep -v "\#" | egrep -v "^\s*$" | egrep -v "testbench" | awk {{print "hardware/"$0}}] "\n"]
+#set file_list [split [exec cat $origin_dir/$hw_dir/file.list | egrep -v "\#" | egrep -v "^\s*$" | egrep -v "testbench" | awk {{print "hardware/"$0}}] "\n"]
+#set file_list [split [exec cat $origin_dir/$hw_dir/file.list | egrep -v "\#" | egrep -v "^\s*$" | egrep -v "testbench" | awk Template:Print "hardware/"$0] "\n"]
+source ./hardware/File_list.tcl
 set files [split [string trim $file_list]]
 #puts $files
 

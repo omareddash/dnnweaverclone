@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Sep 30 18:08:05 2019
+# Process ID: 31121
+# Current directory: /home/omar/Drive2/Work/dnnweaver.public/fpga
+# Command line: vivado
+# Log file: /home/omar/Drive2/Work/dnnweaver.public/fpga/vivado.log
+# Journal file: /home/omar/Drive2/Work/dnnweaver.public/fpga/vivado.jou
+#-----------------------------------------------------------
+ERROR: [Common 17-356] Failed to install all user apps.
+start_gui
+open_project /home/omar/Drive2/Work/Vivado/ReconHWWIP-master/dualFilterManualDevelopment.xpr
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.37) then the current supported version (0.33).
+Data could be potentially be lost
+Scanning sources...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+open_project /home/omar/Drive2/Work/Vivado/ReconHWWIP-master/dualFilterManualDevelopment.xpr
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.37) then the current supported version (0.33).
+Data could be potentially be lost
+Scanning sources...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+open_project /home/omar/Drive2/Work/Vivado/ReconHWWIP-master/dualFilterManualDevelopment.xpr
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.37) then the current supported version (0.33).
+Data could be potentially be lost
+Scanning sources...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+open_project /home/omar/Drive2/Work/Vivado/ReconHWWIP-master/dualFilterManualDevelopment.xpr
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.37) then the current supported version (0.33).
+Data could be potentially be lost
+Scanning sources...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 30 18:12:50 2019...

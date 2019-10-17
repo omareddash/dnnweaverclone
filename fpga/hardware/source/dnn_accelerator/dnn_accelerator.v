@@ -22,7 +22,8 @@ module dnn_accelerator #(
   parameter integer PE_SEL_W          = `C_LOG_2(NUM_PE),
   parameter integer PU_ID_W           = `C_LOG_2(NUM_PU)+1,
   parameter integer LAYER_PARAM_WIDTH = 10,
-  parameter integer PARAM_C_WIDTH     = 32
+  parameter integer PARAM_C_WIDTH     = 32,
+  parameter integer ROM_ADDR_W     = 3
 ) (
 // ******************************************************************
 // IO

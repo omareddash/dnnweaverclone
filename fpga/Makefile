@@ -156,7 +156,7 @@ launch_golden:
 ############ COMPILER ############
 $(DW_COMPILER_OUTPUT): $(DW_COMPILER) $(PROTOTXT) $(DW_COMPILER_DEPS)
 	@echo "Generating instructions for DnnWeaver"
-	@python $(DW_COMPILER) -prototxt $(PROTOTXT) -num_pe $(NUM_PE) -num_pu $(NUM_PU) -b $(SIM_INCLUDE_DIR) -fpga $(FPGA)
+	@python2.7 $(DW_COMPILER) -prototxt $(PROTOTXT) -num_pe $(NUM_PE) -num_pu $(NUM_PU) -b $(SIM_INCLUDE_DIR) -fpga $(FPGA)
 	#@python $(DW_COMPILER) -prototxt $(PROTOTXT) -b $(SIM_INCLUDE_DIR) -fpga $(FPGA)
 
 dw_compile: $(DW_COMPILER_OUTPUT)
